@@ -121,9 +121,9 @@ export default function ProductDetail() {
       {product.ean && (
         <Text style={styles.detailText}>EAN: {product.ean}</Text>
       )}
-      {product.source && (
+      {/* {product.source && (
         <Text style={styles.detailText}>Source: {product.source}</Text>
-      )}
+      )} */}
 
       <View style={styles.buttonContainer}>
         <TouchableOpacity style={styles.editButton} onPress={handleEdit}>
