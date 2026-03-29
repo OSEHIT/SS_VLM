@@ -232,7 +232,7 @@ export default function ScanScreen() {
             {images.length} photo{images.length > 1 ? "s" : ""} captured
           </Text>
           {isBulk && (
-            <Text style={styles.bulkBadge}>🥕 Mode Vrac activé</Text>
+            <Text style={styles.bulkBadge}> Mode Vrac activé</Text>
           )}
 
           {/* Large preview scroll */}
